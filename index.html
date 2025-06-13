@@ -1,71 +1,108 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impacto do Desmatamento</title>
+    <title Relação entre campo e cidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Impacto do Desmatamento</h1>
-        <img src="cataratas-do-iguacu.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
-        <p>O desmatamento intensifica fenômenos negativos no meio ambiente e na vida das pessoas, afetando enchentes, temperatura e qualidade de vida.</p>
-        <nav>
-            <ul>
-                <li><a href="#problemas">Os Problemas</a></li>
-                <li><a href="#consequencias">Consequências</a></li>
-                <li><a href="#conclusao">Conclusão</a></li>
-            </ul>
-        </nav>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="WhatsApp Image 2025-04-25 at 20.58.07 (3) copy.jpeg" alt="logo da alura start">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Estudante</li>
+        </ul>
     </header>
-<!-- código omitido -->
+    <div id="acessibilidade" class="menu-acessibilidade">
+        <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">acessibilidade</button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+          <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+          <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+          <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>
+        </div>
+    </div>       
+</nav>
 
-    <main>
-        <section id="problemas" class="conteudo">
-            <h2>Os Problemas</h2>
-            <article>
-                <h3>Aumento das enchentes</h3>
-                <p>As árvores absorvem a água da chuva e ajudam na infiltração no solo. Sem vegetação, a água escoa rapidamente, causando enchentes.</p>
-            </article>
+</header>
 
-            <article>
-                <h3>Calor excessivo e ilhas de calor</h3>
-                <p>O desmatamento reduz a evapotranspiração das plantas, elevando a temperatura das cidades e aumentando o efeito das ilhas de calor.</p>
-            </article>
 
-            <article>
-                <h3>Redução da qualidade de vida</h3>
-                <p>A destruição das florestas impacta a biodiversidade, aumenta a poluição e reduz o contato com áreas verdes, afetando a saúde mental e respiratória.</p>
-            </article>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="Camila-titulo">O que o campo tem para oferecer?<h2/>
+            <p class="camila-texto-um"> O campo oferece alimentos frescos, matérias-primas para indústrias e a preservação do meio ambiente, que são essenciais para a vida na cidade.</p>
+                <h2 class="Camila-titulo">O que a cidae tem para oferecer?</h2>
+            <p class="Camila-texto-dois"> Acidade pode ofererecer para o campo produtos industrializados, serviços especializados de saúde, energia e tecnologia, comunicação, transporte e 
+                um mercado consumidor para os produtos  do campo.<
+            <p class="Camila-texto-dois"></p>
+        </div>
+        <img class="Camila-imagem" src="WhatsApp Image 2025-04-26 at 10.22.23.jpeg" alt="Foto da Camila">
+    </section>
+</body>
 
-            <a href="https://www.youtube.com/watch?v=ILh7nDEKGqc&pp=ygUXSW1wYWN0byBkbyBEZXNtYXRhbWVudG8%3D" class="cta-button" target="_blank">Como impacta o mundo? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
-        </section>
+</html>
+    <section class="estudante">
+        <h2 class="estudante-titulo">Galeria</h2>
+        <div class="estudante-todos">
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="WhatsApp Image 2025-04-26 at 11.16.32.jpeg" alt="Minha foto">
+        
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="WhatsApp Image 2025-04-26 at 11.38.17.jpeg" alt="Minha foto">
+            
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="WhatsApp Image 2025-04-26 at 09.53.42.jpeg" alt="Minha foto">
+        </div>
+    </section>
+            
+        </div>
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+        </html>
 
-        <section id="consequencias" class="conteudo">
-            <h2>Consequências</h2>
-            <ul>
-                <li>Aumento das enchentes e erosão do solo</li>
-                <li>Aumento das temperaturas e mudanças climáticas</li>
-                <li>Perda da biodiversidade</li>
-                <li>Redução da qualidade de vida nas cidades</li>
-                <li>Agravamento de problemas de saúde</li>
-                <li>Impacto na economia de comunidades locais</li>
-            </ul>
-        </section>
+        </div>
 
-        <section id="conclusao" class="conteudo">
-            <h2>Conclusão</h2>
-            <p>O desmatamento impacta diretamente a vida humana. Para evitar suas consequências, é necessário preservar o meio ambiente, investir em reflorestamento e adotar práticas sustentáveis.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ILh7nDEKGqc?si=feol6sZCHo1Cg-jQ" title="YouTube video.">
-        </section>
+    </section>
 
-    </main>
 
-    <footer>
-        <a href="https://www.linkedin.com/in/femascheti" class="cta-footer">Faça parte dessa causa!</a>
-        <p>2025 | @femascheti</p>
+</section>
+</main>
+<footer class="text-center p-3 fst-italic">
+    <p class="mt-3">Desenvolvido por  Camila Bueno. Projeto Agrinho 2025.</p>
+</footer>
+<script src="script.js"></script>
+</div>
+
+    </div>
+    </section>
+    <footer class="rodape">
+        <img class="rodape-imagem"src="alura 2.png" alt="logo da alura start">
     </footer>
 </body>
 </html>
-<!-- código omitido -->
